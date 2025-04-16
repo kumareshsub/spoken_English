@@ -38,15 +38,15 @@ const DropZone = ({ word, expected, onDrop, questionTemplate, questionIndex }) =
     const handleDrop = (draggedWord) => {
         const attempt = questionTemplate.replace(/_+/, draggedWord).trim();
         const correct = questionTemplate.replace(/_+/, expected).trim();
-
+      
         if (attempt === correct) {
-            onDrop(draggedWord);
+          onDrop(draggedWord);
         } else {
-            setError(true);
-            setTimeout(() => setError(false), 800);
+          setError(true);
+          setTimeout(() => setError(false), 800);
         }
-    };
-
+      };
+      
     return (
         <span
             ref={setNodeRef}
