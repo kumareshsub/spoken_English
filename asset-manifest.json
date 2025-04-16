@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/spoken_English/static/css/main.fcd24ab2.css",
+    "main.js": "/spoken_English/static/js/main.efe6dd17.js",
+    "static/media/download (3).jpeg": "/spoken_English/static/media/download (3).d9a3f96d3a127d559fb4.jpeg",
+    "index.html": "/spoken_English/index.html",
+    "main.fcd24ab2.css.map": "/spoken_English/static/css/main.fcd24ab2.css.map",
+    "main.efe6dd17.js.map": "/spoken_English/static/js/main.efe6dd17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcd24ab2.css",
+    "static/js/main.efe6dd17.js"
+  ]
+}
